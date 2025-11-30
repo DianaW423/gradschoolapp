@@ -17,6 +17,14 @@
             font-family: 'Oswald', sans-serif;
         }
 
+        .grid-item-container h3{
+            height:75px;
+        }
+
+        #toolkit .grid-container {
+            background:unset;
+        }
+
         h4 {
             text-transform: uppercase;
         }
