@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Oswald:wght@400;700&family=Dynapuff:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#why">Why</a></li>
+            <li><a href="#toolkit">My Toolkit</a></li>
+            <li><a href="#casestudy">Case Study</a></li>
+            <li><a href="#about">About Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section One: Why It Matters -->
+    <section id="why">
+        <div class="section-content">
+            <h1>Why it matters</h1>
+            <p>Design is a strategic methodology that helps create pathways for others' experiences, helping to pinpoint where specifically issues are arising and then going back to refine. It is persistent. If we do not get out in the field and stray away from books, we will never truly know or experience what matters and who's impacted.  I'm eager to use low-fidelity prototypes, as it truly poses less risk but greater return because naturally, as humans, we're more nervous about giving feedback to a well-developed prototype than a sketch board. Yet, this is where the magic happens, because we can combine all the brilliant-minded feedback to make the impossible possible. Design helps leave the world better than we found it and opens the mind to creativity. Creativity is someone going outside what was previously known as the only path and creating another one.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Two: Toolkit 
+    <section id="toolkit">
+        <div class="section-content">
+            <h1>Toolkit</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="Development">
+                    <div class="grid-overlay">
+                        <div class="grid-caption">From napkin sketch to 3D model: How I visualize solutions before building</div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800" alt="Design">
+                    <div class="grid-overlay">
+                        <div class="grid-caption">I use mixed-methods research to understand why before I design what. 100+ interviews taught me: solutions fail when we skip the empathy stage.</div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800" alt="Analytics">
+                    <div class="grid-overlay">
+                        <div class="grid-caption">First place, DREAM Incubator: Designed app ecosystem connecting food waste to student food insecurity through volunteer coordinatio</div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800" alt="Collaboration">
+                    <div class="grid-overlay">
+                        <div class="grid-caption">I test ideas with users early. UX testing 25 survey questions taught me: accessibility isn't an add-on, it's foundational.</div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800" alt="Strategy">
+                    <div class="grid-overlay">
+                        <div class="grid-caption">Teaching 8th graders showed me how to break complex ideas into digestible steps—a skill essential for human-centered design</div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" alt="Automation">
+                    <div class="grid-overlay">
+                        <div class="grid-caption">Summer 2024: Learning CAD to translate sketches into manufacturable prototypes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Section Three: Case Study -->
+    <section id="casestudy">
+        <div class="section-content">
+            <h1>Case Study</h1>
+            <div class="casestudy-container">
+                <!-- Tab Navigation -->
+                <div class="tab-nav">
+                    <button class="tab-btn active" onclick="showTab(1)">Therapeutic Alarm Bed (Primary Focus)</button>
+                    <button class="tab-btn" onclick="showTab(2)">Mental Health Bear (Secondary)</button>
+                    <button class="tab-btn" onclick="showTab(3)">Dream Incubator App (Brief)</button>
+                </div>
+
+                <!-- Tab Content Container -->
+                <div class="tab-content-container">
+                    <!-- Tab 1 Content -->
+                    <div class="tab-content active" id="tab1">
+                        <h2>The Problem</h2>
+                        <p>For people with depression, the bed can become a clutch to cope when wanting to avoid  overrbearing duties. People nearest to you can try to simplify it by saying "just get up earlier" ignoring the neurological reality: executive dysfunction makes even basic tasks feel insurmountable. When you combine the dread with obnoxious 'alarm clocks' it becomes easy to treat waking up as a willpower issue. It's not. It's a design issue. My objective is to make getting up an enjoyable and simplified process.</p>
+
+                        <h3>User Research</h3>
+                        <ul>
+                            <li>Interview individuals with depression to understand how executive dysfunction affects their morning routines, sensory triggers, and emotional responses to alarms</li>
+                            <li>Observe night routine to understand what other contirbuting factors may lead to snoozing the alarm </li>
+                            <li>Observe how many times the snooze occurs and what would be potential mottivating factors </li>
+                        </ul>
+
+                        <h3>Design Process</h3>
+                        <div class="process-grid">
+                            <div class="process-item">
+                                <h4>Sketch Phase</h4>
+                                <img src="imgs/napkin.png" alt="Research">
+                                <h5>Quick drawing to explore what could make waking up feel less overwhelming. I focused on simple shapes, that require minimal effort. These early sketches helped me visualize how the product could support someone emotionally and physically.</h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>Model</h4>
+                                <img src="imgs/3DBed.png" alt="Wireframe">
+                                <h5>I turned the sketches into basic 3D forms to understand size, placement, and usability.</h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>Material Research</h4>
+                                <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400" alt="Design">
+                                <h5>Exploring what materials may be needed and specific technology that may need to be used and comparing with previous competitiors.  </h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>Next Steps</h4>
+                                <img src="imgs/iterate_2.png" alt="Testing">
+                                <h5>My next steps focus on user testing to gather feedback from people who experience morning depression or executive dysfunction. I will refine the design based on their needs, adjusting form, interaction, and materials to ensure the final product genuinely supports a smoother, more compassionate morning routine.</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2 Content -->
+                    <div class="tab-content" id="tab2">
+                        <h2>The Problem</h2>
+                        <p> Mental health care costs $60-120/month even with insurance, making it unaffordable for many families. MHB (Mental Health Bear) is an accessible alternative that combines a physical companion with an app offering evidence-based emotional support, journaling, and crisis detection.</p>
+
+                        <h3>User Research</h3>
+                        <ul>
+                            <li>Interview 15-20 users (parents, teens, therapy-gap individuals) about cost barriers and when they need support most</li>
+                            <li>Survey 100+ people on therapy costs, frequency of need, and what interventions they'd actually use</li>
+                            <li>Shadow users during real stress moments to understand emotional needs beyond what they can articulate in interviews</li>
+                            <li>Analyze competitor apps (Woebot, Wysa, Youper) to identify gaps in crisis response and user trust</li>
+                            <li>Consult 3-5 licensed therapists on ethical boundaries to see when AI can help vs. when human care is non-negotiable</li>
+                        </ul>
+
+                        <h3>Design Process</h3>
+                        <div class="process-grid">
+                            <div class="process-item">
+                                <h4>EMPATHIZE</h4>
+                                <img src="imgs/talk.png" alt="Research">
+                                <h5>Interview users about therapy barriers.
+                                    Create journey maps of their mental health struggles
+                                </h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>DEFINE</h4>
+                                <img src="imgs/define.png" alt="Wireframe">
+                                <h5>
+                                    Synthesize insights into problem statement
+                                    Frame "How Might We" questions
+                                </h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>IDEATE</h4>
+                                <img src="imgs/Smooth Uusam-Fyyran.png" alt="Design">
+                                <h5>
+                                Sketch concepts for bear/app interaction Storyboard user scenarios
+                                Develop paper mock ups of bear and app model
+                                </h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>PROTOTYPE</h4>
+                                <img src="imgs/img_2354.jpg" alt="Testing">
+                                <h5>
+                                    Example of CAD model  for mental health bear
+                                </h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>TEST & ITERATE</h4>
+                                <img src="imgs/iterate.png" alt="Testing">
+                                <h5>
+                                    Observe users interacting with the prototype, identify pain points, and collaborate with both the therapist and students
+                                </h5>
+                            </div>                            
+                        </div>
+                        <!--<h2>The Problem</h2>
+                        <p>Therapeutic weighted blankets cost $100-200. College students with anxiety need sensory regulation tools but can't afford clinical-grade products.</p>
+
+                        <h3>My Solution</h3>
+                        <p>Designed weighted stuffed bear using poly pellets ($15 in materials). Washable, portable, dorm-friendly.</p>
+
+                        <h3>Status</h3>
+                        <p>Prototype stage. Need to learn: fabric stress testing, manufacturing partnerships, distribution channels..</p>
+
+                        <h3>Design Process</h3>
+                        <div class="process-grid">
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400" alt="Discovery">
+                                <h4>Discovery phase focused on understanding business constraints, technical limitations, and user expectations through stakeholder interviews and market research to establish realistic project scope.</h4>
+                            </div>
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400" alt="Ideation">
+                                <h4>Facilitated collaborative ideation sessions with cross-functional teams to generate diverse solutions, evaluate feasibility, and align on strategic direction for product development.</h4>
+                            </div>
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=400" alt="Prototype">
+                                <h4>Built interactive prototypes using modern tools to simulate user interactions, test assumptions, and communicate design intent to development team before implementation.</h4>
+                            </div>
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400" alt="Launch">
+                                <h4>Coordinated launch strategy including phased rollout, performance monitoring, and continuous improvement based on user feedback and analytics data to ensure successful adoption.</h4>
+                            </div>
+                        </div>-->
+                    </div>
+
+                    <!-- Tab 3 Content -->
+                    <div class="tab-content" id="tab3">
+                        <h2>The Problem</h2>
+                        <p>Many students experience food insecurity while edible surplus food exists across campus. Because current systems for sharing extra food are inconsistent and disconnected, students who need support often miss out. Communication is scattered, access is unpredictable, and volunteer coordination is unclear. The result is preventable hunger and unnecessary waste. There is a need for a centralized, student-centered, dignity-focused way to connect available food with those who need it most.</p>
+
+                        <h3>User Research</h3>
+                        <ul>
+                            <li>Understand when and why students encounter food insecurity, their comfort levels accessing help, and how they currently navigate supportive resources</li>
+                            <li>Explore how surplus food typically gets discarded across different university environments</li>
+                        </ul>
+
+                        <h3>Design Process</h3>
+                        <div class="process-grid">
+                            <div class="process-item">
+                                <h4>Discover</h4>
+                                <img src="imgs/discover.png" alt="Research">
+                                <h5>Through observation and conversations, we learn how students currently find food support, where barriers appear, and how surplus food generally circulates. The goal is to uncover patterns, emotional experiences, and unmet needs.</h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>Define  </h4>
+                                <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400" alt="Wireframe">
+                                <h5>Once the issue is defined, we bring insights together to highlight shared themes across stakeholders</h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>Design </h4>
+                                <img src="imgs/all-in.png" alt="Design">
+                                <h5>Broad ideas are sketched, tested, and reshaped into early concepts. Focus is placed on accessibility, dignity, clarity, and reducing friction. Multiple formats are tried so stakeholders can compare approaches and share feedback without locking into any specific system or method.</h5>
+                            </div>
+                            <div class="process-item">
+                                <h4>Deliver</h4>
+                                <img src="imgs/cycle.png" alt="Testing">
+                                <h5>Concepts are tested with students and volunteers to examine clarity, comfort, and usability. Feedback informs iterations that strengthen the design. This step ensures the final direction is grounded in real needs while staying flexible for future operational decisions.</h5>
+                            </div>
+                        </div>
+                        <!--<h2>Honors</h2>
+                        <p>Won first place pitching a campus food insecurity app. The insight: universities waste food while students go hungry, not because of scarcity but because of coordination failure. I designed a volunteer-driven platform matching dining hall surplus to student need, tiered by income (Pell Grant data + grad student stipends). Stanford question: How do we scale this beyond one campus?</p>
+
+                        <h3>User Research</h3>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur rerum hic tenetur.</p>
+
+                        <h3>Design Process</h3>
+                        <div class="process-grid">
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400" alt="Strategy">
+                                <h4>Developed comprehensive design strategy that balanced user needs with business goals, creating roadmap for iterative development and establishing key performance indicators for success.</h4>
+                            </div>
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400" alt="Workshop">
+                                <h4>Organized design thinking workshops with stakeholders to align on vision, identify constraints, and collaboratively solve complex design challenges through structured exercises.</h4>
+                            </div>
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400" alt="Validation">
+                                <h4>Implemented validation framework using A/B testing, heatmaps, and user feedback sessions to measure effectiveness of design decisions and guide iterative improvements.</h4>
+                            </div>
+                            <div class="process-item">
+                                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400" alt="Evolution">
+                                <h4>Established design system governance and maintenance processes to ensure long-term consistency, scalability, and continuous evolution based on user needs and technology advances.</h4>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-content">
+            <h1>About Me</h1>
+            <p>Growing up, I watched loved ones struggle to access treatment outside of clinical and educational settings, 
+                carrying invisible burdens they felt they had to navigate alone. As a result, I started questioning. 
+                I wanted to know why, and how I could help: design items and environments not solely just for function, 
+                rather to make impact. I purposely got involved in research methods, and participated in an incubator trying to plan real intervention. It revealed to me that equity requires intention. 
+                Now, I'm learning inquisitive processing and iteration create the best designers. 
+                It is not only about tangible items but about questioning the frameworks we inherit.
+                Today I intend to leave my mark by asking: how can you examine the world around you today to evaluate whether the system or environment is still the same because its habitual or because its truly the best method?
+            </p>
+
+            <div class="about-grid">
+                <div class="grid-item">
+                    <img src="imgs/IMG_0611.jpeg" alt="Development">
+                    <div class="grid-overlay">
+                        <h5>Illinois Summer Research Symposium (McNair): presented my quantitative mixed methods project, built from interviews and data collection. 
+                            I received the high score for scientific rigor amongst judges.</h5>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/IMG_0711.jpeg" alt="Design">
+                    <div class="grid-overlay">
+                        <h5>I designed a food and security app after watching tons of food be thrown away. 
+                            With the tier system embeded, it was designed to alleviate the stress or fear of where student's next meal comes from.</h5>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/IMG_1313.jpeg" alt="Analytics">
+                    <div class="grid-overlay">
+                        <h5>I organized a previously cancelled research trip for minority students by coordinating with the assistant director, conducting an interest poll, and arranging school visits. I wanted to give the students the opportunity to network with administration for PHD/Master's programs. These connections not only demystify the graduate school process but also help students evaluate whether programs align with their values.</h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Diana W. All rights reserved. All ideas are simplified for IP protection.</p>
+      </footer>
+    <script>
+        function showTab(tabNum) {
+            const buttons = document.querySelectorAll('.tab-btn');
+            const contents = document.querySelectorAll('.tab-content');
+            
+            buttons.forEach(btn => btn.classList.remove('active'));
+            contents.forEach(content => content.classList.remove('active'));
+            
+            buttons[tabNum - 1].classList.add('active');
+            document.getElementById('tab' + tabNum).classList.add('active');
+        }
+    </script>
+</body>
+</html>
