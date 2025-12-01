@@ -205,13 +205,17 @@
 
         /* === Section Three: Case Study === */
         #casestudy {
-            background: #ff8c42;
+            background: #d94e18;
             min-height: 100vh;
             padding: 8rem 4rem;
         }
 
         #casestudy h1 {
-            color: #1a1a1a;
+            color: #fff;
+        }
+
+        #casestudy .tab-nav button{
+            color: #fff;;
         }
 
         .casestudy-container {
@@ -285,7 +289,7 @@
             transform: translateY(-50%);
             width: 30px;
             height: 2px;
-            background: #1a1a1a;
+            background: #fff;
             opacity: 0;
             transition: all 0.4s ease;
         }
